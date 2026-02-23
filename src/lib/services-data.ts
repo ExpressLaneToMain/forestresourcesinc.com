@@ -220,7 +220,7 @@ export const servicesData: ServiceDetail[] = [
       "Professional valuation and marketing of standing timber to maximize financial returns.",
     iconName: "TrendingUp",
     subtitle: "Timber Appraisals/Sales",
-    image: "/images/logging.png",
+    image: "/images/logging.jpg",
     fullDescription:
       "Timber appraisals and sales involve the valuation of standing timber (also known as timber cruising) to estimate its market value and the subsequent sale of that timber under optimal conditions. This service is crucial for landowners looking to generate income from their forested properties, manage their timber resources sustainably, and understand the financial aspects of their forest assets.",
     howItWorks: [

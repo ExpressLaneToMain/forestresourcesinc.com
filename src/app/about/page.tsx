@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "About Us",
   description:
     "Learn about Forest Resources Inc. — Perry Bushue and Greg Gordon, with over 20 years of forestry experience serving Central & Southern Illinois. 650+ plans written, 500+ clients served.",
+  alternates: {
+    canonical: "https://www.forestresourcesinc.com/about",
+  },
 };
 
 const stats = [

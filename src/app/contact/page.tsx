@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Contact Us",
   description:
     "Schedule a free consultation with Forest Resources Inc. Contact Perry Bushue at 217-259-1500 for forestry services in Central & Southern Illinois.",
+  alternates: {
+    canonical: "https://www.forestresourcesinc.com/contact",
+  },
 };
 
 export default function ContactPage() {

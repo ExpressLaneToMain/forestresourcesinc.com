@@ -50,6 +50,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "@id": "https://www.forestresourcesinc.com/#organization",
   name: "Forest Resources Inc.",
   image: "https://www.forestresourcesinc.com/logo.png",
   description:
@@ -58,11 +59,18 @@ const jsonLd = {
     "@type": "PostalAddress",
     addressLocality: "Shumway",
     addressRegion: "IL",
+    postalCode: "62461",
     addressCountry: "US",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: "39.1",
+    longitude: "-88.7",
   },
   telephone: "+1-217-259-1500",
   email: "perrybushue@forestresourcesinc.com",
   url: "https://www.forestresourcesinc.com",
+  sameAs: ["https://www.facebook.com/forestresources007"],
   areaServed: {
     "@type": "GeoCircle",
     geoMidpoint: {
@@ -78,6 +86,20 @@ const jsonLd = {
     { "@type": "Person", name: "Perry Bushue" },
     { "@type": "Person", name: "Greg Gordon" },
   ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Forestry Services",
+    itemListElement: [
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Forest Stewardship Plans" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Tree Planting" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Wildlife Enhancement" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Food Plots" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Timber Appraisals & Sales" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Forest Stand Improvement" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "CRP Management" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Invasive Species Control" } },
+    ],
+  },
 };
 
 export default function RootLayout({

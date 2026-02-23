@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Forestry Services",
   description:
     "Comprehensive forestry and land management services in Central & Southern Illinois. Forest stewardship plans, tree planting, wildlife enhancement, timber appraisals, and more.",
+  alternates: {
+    canonical: "https://www.forestresourcesinc.com/services",
+  },
 };
 
 const IconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {

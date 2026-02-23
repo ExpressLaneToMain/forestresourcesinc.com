@@ -23,12 +23,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const service = servicesData.find((s) => s.slug === slug);
   if (!service) return {};
 
+  const description = `${service.description} Professional ${service.title.toLowerCase()} services in Central & Southern Illinois from Forest Resources Inc. Call 217-259-1500.`;
+
   return {
     title: service.title,
-    description: service.description,
+    description,
+    alternates: {
+      canonical: `https://www.forestresourcesinc.com/services/${service.slug}`,
+    },
     openGraph: {
       title: `${service.title} | Forest Resources Inc.`,
-      description: service.description,
+      description,
       images: service.image ? [{ url: service.image }] : [],
     },
   };
@@ -46,8 +51,78 @@ export default async function ServiceDetailPage({ params }: PageProps) {
     .filter((_, i) => i !== currentIndex)
     .slice(0, 3);
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.forestresourcesinc.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Services",
+        item: "https://www.forestresourcesinc.com/services",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: service.title,
+        item: `https://www.forestresourcesinc.com/services/${service.slug}`,
+      },
+    ],
+  };
+
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    description: service.fullDescription,
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Forest Resources Inc.",
+      url: "https://www.forestresourcesinc.com",
+    },
+    areaServed: {
+      "@type": "State",
+      name: "Illinois",
+    },
+    url: `https://www.forestresourcesinc.com/services/${service.slug}`,
+  };
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: service.howItWorks.map((step) => ({
+      "@type": "Question",
+      name: step.title,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          step.description +
+          (step.subItems ? " " + step.subItems.join(". ") : ""),
+      },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+
       {/* Hero */}
       <section className="relative pt-32 pb-24 overflow-hidden">
         {service.image ? (

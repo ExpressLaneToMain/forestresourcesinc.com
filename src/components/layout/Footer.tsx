@@ -6,7 +6,11 @@ const serviceLinks = [
   { name: "Forest Stewardship Plans", href: "/services/forest-stewardship-plans" },
   { name: "Tree Planting", href: "/services/tree-planting" },
   { name: "Wildlife Enhancement", href: "/services/wildlife-enhancement" },
+  { name: "Food Plots", href: "/services/food-plots" },
   { name: "Timber Appraisals & Sales", href: "/services/timber-appraisals-sales" },
+  { name: "Forest Stand Improvement", href: "/services/forest-stand-improvement" },
+  { name: "CRP Management", href: "/services/crp-management" },
+  { name: "Invasive Species Control", href: "/services/invasive-species-control" },
 ];
 
 const companyLinks = [
