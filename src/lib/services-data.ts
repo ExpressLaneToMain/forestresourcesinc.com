@@ -164,14 +164,14 @@ export const servicesData: ServiceDetail[] = [
   },
   {
     id: "4",
-    title: "Food Plots",
-    slug: "food-plots",
+    title: "Food Plots & CRP Seeding",
+    slug: "food-plots-crp-seeding",
     description:
-      "Designated areas cultivated to provide food and nutritional support to wildlife, particularly game species.",
+      "Food plots for wildlife and CRP seeding services including cool season grasses, waterways, native grasses, and pollinator programs.",
     iconName: "Apple",
-    subtitle: "Food Plots",
+    subtitle: "Food Plots & CRP Seeding",
     fullDescription:
-      "Food plots are designated areas cultivated to grow specific types of vegetation that provide food and nutritional support to wildlife, particularly game species such as deer, turkey, and waterfowl. These plots play a critical role in wildlife management and conservation, enhancing the habitat to attract and sustain a healthy wildlife population. They can also be integral for landowners interested in hunting, wildlife observation, or photography.",
+      "Food plots are designated areas cultivated to grow specific types of vegetation that provide food and nutritional support to wildlife, particularly game species such as deer, turkey, and waterfowl. These plots play a critical role in wildlife management and conservation, enhancing the habitat to attract and sustain a healthy wildlife population. They can also be integral for landowners interested in hunting, wildlife observation, or photography. We also provide CRP seeding services — including cool season grasses, waterways, native grasses, and pollinator programs. Food plots can be incorporated into CRP plantings or established as standalone projects depending on your goals.",
     image: "/images/tractor.jpg",
     howItWorks: [
       {
@@ -207,9 +207,9 @@ export const servicesData: ServiceDetail[] = [
       "Land and Environmental Stewardship: Implementing food plots is a proactive approach to land management that demonstrates a commitment to sustainable practices and wildlife conservation.",
     ],
     specialFeature: {
-      title: "Food Plots",
+      title: "CRP Seeding Programs",
       description:
-        "Food plots are essential for enhancing wildlife habitat and improving hunting opportunities, attracting a variety of game species such as deer, turkeys, and waterfowl. These strategically planted areas offer diverse forage options year-round, supplementing natural food sources and providing essential nutrients for wildlife. Additionally, food plots contribute to habitat diversity, serving as cover and forage areas that support healthy wildlife populations. By establishing food plots near hunting blinds or tree stands, hunters can create prime locations for observing and harvesting game, while also supporting broader conservation goals by promoting ecosystem health and biodiversity. We also offer CRP seeding services, including cool season grasses, waterways, native grasses, and pollinator programs.",
+        "In addition to wildlife food plots, we offer CRP seeding services tailored to Conservation Reserve Program requirements. Our CRP seeding includes cool season grasses, waterway establishment, native grass plantings, and pollinator habitat programs. Whether you need food plots incorporated into a CRP planting or a standalone food plot project, we can design and install the right solution for your property and goals.",
     },
   },
   {

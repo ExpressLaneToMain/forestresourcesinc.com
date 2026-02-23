@@ -90,7 +90,7 @@ const jsonLd = {
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Forest Stewardship Plans" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Tree Planting" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Wildlife Enhancement" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Food Plots" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Food Plots & CRP Seeding" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Timber Appraisals & Sales" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Forest Stand Improvement" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "CRP Management" } },

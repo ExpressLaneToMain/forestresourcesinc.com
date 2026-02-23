@@ -9,7 +9,7 @@ const services = [
   "Forest Stewardship Plans",
   "Tree Planting",
   "Wildlife Enhancement",
-  "Food Plots",
+  "Food Plots & CRP Seeding",
   "Timber Appraisals & Sales",
   "Forest Stand Improvement",
   "CRP Management",
