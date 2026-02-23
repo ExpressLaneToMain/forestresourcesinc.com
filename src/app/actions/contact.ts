@@ -29,7 +29,7 @@ export async function submitContactForm(
 
     await resend.emails.send({
       from: "Forest Resources Website <noreply@forestresourcesinc.com>",
-      to: "perryb65@icloud.com",
+      to: "perrybushue@forestresourcesinc.com",
       replyTo: data.email,
       subject: `New Inquiry: ${data.service} - ${data.name}`,
       text: [
