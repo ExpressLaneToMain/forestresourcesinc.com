@@ -75,15 +75,15 @@ export function AboutPreview() {
 
             <div className="space-y-4 text-stone-700 leading-relaxed text-lg">
               <p>
-                We, Perry Bushue and Greg Gordon, each have over 20 years of
-                experience in the forestry industry. We specialize in all
-                aspects of timber and land management — from tree planting to
-                timber sales to wildlife enhancement.
+                Perry Bushue has over 20 years of experience in the forestry
+                industry, specializing in all aspects of timber and land
+                management — from tree planting to timber sales to wildlife
+                enhancement.
               </p>
               <p>
-                Based in Shumway, IL (Effingham County), we&apos;ve completed
-                management projects all over Illinois, partnering with hundreds
-                of landowners and several state parks.
+                Based in Shumway, IL (Effingham County), Forest Resources Inc.
+                has completed management projects all over Illinois, partnering
+                with hundreds of landowners and several state parks.
               </p>
             </div>
 

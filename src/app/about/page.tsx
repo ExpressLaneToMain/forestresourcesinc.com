@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Forest Resources Inc. — Perry Bushue and Greg Gordon, with over 20 years of forestry experience serving Central & Southern Illinois. 650+ plans written, 500+ clients served.",
+    "Learn about Forest Resources Inc. — Perry Bushue, with over 20 years of forestry experience serving Central & Southern Illinois. 650+ plans written, 500+ clients served.",
   alternates: {
     canonical: "https://www.forestresourcesinc.com/about",
   },
@@ -87,14 +87,15 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-5 text-stone-700 text-lg leading-relaxed">
                 <p>
-                  We, Perry Bushue and Greg Gordon, each have over 20 years of
-                  experience in the forestry industry. We specialize in all
-                  aspects of timber and land management — from tree planting to
-                  timber sales to wildlife enhancement.
+                  Perry Bushue has over 20 years of experience in the forestry
+                  industry, specializing in all aspects of timber and land
+                  management — from tree planting to timber sales to wildlife
+                  enhancement.
                 </p>
                 <p>
-                  Though we&apos;re based in Shumway, IL (Effingham County),
-                  we&apos;ve completed management projects all over Illinois.
+                  Though based in Shumway, IL (Effingham County), Forest
+                  Resources Inc. has completed management projects all over
+                  Illinois.
                 </p>
                 <p>
                   Forest Resources Inc. has partnered with hundreds of

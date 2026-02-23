@@ -82,10 +82,7 @@ const jsonLd = {
   },
   priceRange: "$$",
   openingHours: "Mo-Fr 08:00-17:00",
-  founder: [
-    { "@type": "Person", name: "Perry Bushue" },
-    { "@type": "Person", name: "Greg Gordon" },
-  ],
+  founder: { "@type": "Person", name: "Perry Bushue" },
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Forestry Services",
