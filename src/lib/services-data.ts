@@ -209,7 +209,7 @@ export const servicesData: ServiceDetail[] = [
     specialFeature: {
       title: "Food Plots",
       description:
-        "Food plots are essential for enhancing wildlife habitat and improving hunting opportunities, attracting a variety of game species such as deer, turkeys, and waterfowl. These strategically planted areas offer diverse forage options year-round, supplementing natural food sources and providing essential nutrients for wildlife. Additionally, food plots contribute to habitat diversity, serving as cover and forage areas that support healthy wildlife populations. By establishing food plots near hunting blinds or tree stands, hunters can create prime locations for observing and harvesting game, while also supporting broader conservation goals by promoting ecosystem health and biodiversity.",
+        "Food plots are essential for enhancing wildlife habitat and improving hunting opportunities, attracting a variety of game species such as deer, turkeys, and waterfowl. These strategically planted areas offer diverse forage options year-round, supplementing natural food sources and providing essential nutrients for wildlife. Additionally, food plots contribute to habitat diversity, serving as cover and forage areas that support healthy wildlife populations. By establishing food plots near hunting blinds or tree stands, hunters can create prime locations for observing and harvesting game, while also supporting broader conservation goals by promoting ecosystem health and biodiversity. We also offer CRP seeding services, including cool season grasses, waterways, native grasses, and pollinator programs.",
     },
   },
   {
